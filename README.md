@@ -1,10 +1,10 @@
 # SIEM using Wazuh on Ubuntu Server
-Overview
+#Overview
 This project demonstrates the deployment of a Security Information and Event Management (SIEM) system using Wazuh on Ubuntu Server.
 The system is designed to monitor system activity, detect potential threats, and provide real-time security alerts through a centralized dashboard.
 The goal is to simulate a real-world Security Operations Center (SOC) environment and build practical cybersecurity monitoring skills.
 
-Problem Statement
+#Problem Statement
 Modern organizations struggle with:
 *delayed threat detection
 *scattered system logs
