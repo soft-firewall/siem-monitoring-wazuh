@@ -9,11 +9,11 @@ Problem Statement
 
 Modern organizations struggle with:
 
-delayed threat detection
-scattered system logs
-lack of centralized monitoring
-slow incident response
-
+1. delayed threat detection
+2. scattered system logs
+3. lack of centralized monitoring
+4. slow incident response
+ 
 Without a SIEM system, security threats often go unnoticed until damage is already done.
 This project builds a real-time monitoring solution to improve visibility and threat detection.
 
