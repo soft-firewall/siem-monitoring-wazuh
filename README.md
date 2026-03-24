@@ -1,131 +1,95 @@
-# SIEM using Wazuh on Ubuntu Server
-Overview
+# 🔐 Cybersecurity SIEM using Wazuh on Ubuntu Server
 
-This project demonstrates the deployment of a Security Information and Event Management (SIEM) system using Wazuh on Ubuntu Server.
-The system is designed to monitor system activity, detect potential threats, and provide real-time security alerts through a centralized dashboard.
-The goal is to simulate a real-world Security Operations Center (SOC) environment and build practical cybersecurity monitoring skills.
+> 🚧 Project in Progress – Wazuh installation and SOC setup ongoing
 
-Problem Statement
+A practical implementation of a **Security Information and Event Management (SIEM)** system using **Wazuh** on **Ubuntu Server** to monitor system activity, detect threats, and generate real-time security alerts.
 
-Modern organizations struggle with:
+This project simulates a **Security Operations Center (SOC)** environment and builds hands-on cybersecurity monitoring skills.
 
-1. delayed threat detection
-2. scattered system logs
-3. lack of centralized monitoring
-4. slow incident response
- 
-Without a SIEM system, security threats often go unnoticed until damage is already done.
-This project builds a real-time monitoring solution to improve visibility and threat detection.
+---
 
-Objective
-*Install Ubuntu Server in a virtual environment
-*Configure Wazuh SIEM
-*Enable SSH remote access
-*Monitor system logs and security events
-*Generate real-time alerts
-*Build a working cybersecurity monitoring prototype
+## 📌 Table of Contents
 
-Tech Stack
-Operating System
- *Ubuntu Server
-SIEM Platform
- *Wazuh
-Virtualization
- *VirtualBox
-Remote Access
- *Termius
-Tools
- *Linux Terminal
- *SSH
- *Web Browser
- *GitHub
- 
-System Architecture
-Ubuntu Server
-      ↓
-Wazuh Manager
-      ↓
-Wazuh Indexer
-      ↓
-Wazuh Dashboard
-      ↓
-Security Alerts
+- Overview
+- Problem Statement
+- Objective
+- Tech Stack
+- System Architecture
+- Installation
+- Dashboard Access
+- Project Structure
+- Screenshots
+- Learning Outcomes
+- Future Improvements
+- Author
+- License
 
-The Wazuh SIEM collects logs, processes them, and displays security alerts in real time.
+---
 
-Installation Steps
-1. Install Ubuntu Server
-Download ISO and install using VirtualBox.
-Update system:
-sudo apt update
-sudo apt upgrade -y
+## 📖 Overview
 
-2. Install SSH
-sudo apt install openssh-server -y
-sudo systemctl start ssh
-sudo systemctl enable ssh
+Organizations today face increasing cyber threats and require real-time monitoring to detect suspicious activities early.
 
-Get IP address:
-ip a
+This project deploys a **Wazuh SIEM system** on Ubuntu Server to:
 
-3. Install Wazuh
-curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
-sudo bash wazuh-install.sh -a
+- collect system logs
+- monitor security events
+- detect anomalies
+- generate alerts
+- visualize threats through a dashboard
 
-This installs:
-Wazuh Manager
-Wazuh Indexer
-Wazuh Dashboard
+The goal is to build a **working cybersecurity monitoring prototype**.
 
-Access Dashboard
-After installation:
-https://<server-ip>
-Login credentials will be generated during installation.
+---
 
-Expected Output
-*Ubuntu Server running
-*Wazuh SIEM installed
-*SSH remote access working
-*Security dashboard accessible
-*Real-time monitoring enabled
+## ❗ Problem Statement
 
-Project Structure
-cybersecurity-siem-wazuh
-│
-├── README.md
-├── installation-guide.md
-├── architecture.md
-├── screenshots
-│   ├── ubuntu-install.png
-│   ├── wazuh-install.png
-│   ├── dashboard.png
+Many organizations struggle with:
 
-Use Case
-This project can be used by:
-*cybersecurity students
-*SOC analysts
-*beginners in SIEM
-*organizations learning threat monitoring
-It demonstrates how to deploy a basic security monitoring environment.
+- delayed threat detection
+- manual log monitoring
+- scattered system logs
+- slow incident response
+- lack of centralized monitoring
 
-Learning Outcomes
-*Linux server setup
-*SIEM deployment
-*SSH networking
-*Log monitoring
-*Security alert analysis
-*SOC fundamentals
+Without a SIEM system, security breaches often go undetected.
 
-Future Improvements
-Add endpoint agents
-Simulate cyber attacks
-Integrate threat intelligence
-Create automated alerts
-Build incident response workflow
+This project aims to provide **real-time security visibility using Wazuh**.
 
-Author
-Tanisha
-Cybersecurity Student
+---
 
-License
-This project is for educational and research purposes.
+## 🎯 Objective
+
+- Install Ubuntu Server in a virtual environment
+- Configure Wazuh SIEM
+- Enable SSH remote access
+- Monitor system logs
+- Detect security threats
+- Generate real-time alerts
+- Build a working SOC monitoring prototype
+
+---
+
+## 🛠 Tech Stack
+
+### Operating System
+- Ubuntu Server
+
+### SIEM Platform
+- Wazuh
+
+### Virtualization
+- VirtualBox
+
+### Remote Access
+- Termius
+
+### Tools
+- Linux Terminal
+- SSH
+- GitHub
+- Web Browser
+
+---
+
+## 🏗 System Architecture
