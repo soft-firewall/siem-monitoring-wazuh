@@ -8,10 +8,15 @@ The goal is to simulate a real-world Security Operations Center (SOC) environmen
 Problem Statement
 
 Modern organizations struggle with:
+
 *delayed threat detection
+
 *scattered system logs
+
 *lack of centralized monitoring
+
 *slow incident response
+
 Without a SIEM system, security threats often go unnoticed until damage is already done.
 This project builds a real-time monitoring solution to improve visibility and threat detection.
 
