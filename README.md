@@ -93,18 +93,9 @@ This project aims to provide **real-time security visibility using Wazuh**.
 ---
 
 ## 🏗 System Architecture
-Ubuntu Server
-      ↓
-Wazuh Manager
-      ↓
-Wazuh Indexer
-      ↓
-Wazuh Dashboard
-      ↓
-Security Alerts
+Ubuntu Server → Wazuh Manager → Wazuh Indexer → Wazuh Dashboard → Security Alerts
 
 ---
-
 
 ### Workflow
 
@@ -115,4 +106,3 @@ Security Alerts
 5. Security events are monitored in real time
 
 ---
-
