@@ -94,13 +94,13 @@ This project aims to provide **real-time security visibility using Wazuh**.
 
 ## 🏗 System Architecture
 Ubuntu Server
-↓
+      ↓
 Wazuh Manager
-↓
+      ↓
 Wazuh Indexer
-↓
+      ↓
 Wazuh Dashboard
-↓
+      ↓
 Security Alerts
 
 ---
